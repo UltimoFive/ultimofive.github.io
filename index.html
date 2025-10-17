@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Patrick Reardon Portfolio</title>
+
+    <!--Bootstrap Boilerplate-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+            integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+
+    <!--Font Stylesheet-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="css/style_sheet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    <!--Navigation Menu Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid header div_right bottom_border_thick">
+            <a class="navbar-brand logo" href="index.html">
+                <img src="images/Logo.jpg" alt="brand-logo" class="logo">
+            </a>
+            <a class="navbar-brand cormorant-garamond nav-text" href="index.html">
+                Patrick Reardon
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link roboto-slab" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link roboto-slab" href="#recent-projects">Recent Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link roboto-slab" aria-current="page" href="#personal">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link roboto-slab" href="#personal">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link roboto-slab" href="all-projects.html">All Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--
+        <div class="img-wrapper">
+            <img class="img-fluid" src="images/banner-home.jpg" alt="banner image" style="width:100%;" />
+            <div class="img-overlay">
+                <h1 class="Slogan">Innovative and Detail Oriented</h1>
+                <div class="card-footer d-flex justify-content-between">
+                    <a target='_Blank' href="https://www.linkedin.com/in/patrickreardon-u5/" class="btn btn-block btn-primary">LinkedIn</a>
+                    <a target='_Blank' href="https://github.com/UltimoFive" class="btn btn-primary m-0 btn-block mx-4">Github</a>
+                </div>
+            </div>
+        </div>
+    -->
+    <!-- Combined About Me & Resume -->
+    <div class="no-margin recent-projects back-default bottom_border_thick" id="recent-projects">
+        <h1 class="center bottom-border-thin headers cormorant-garamond">Recent Projects</h1>
+        <div class="grid-recent-projects">
+            <div class="grid-select-item back-default" id="prev-1">
+                <a class="recent-projects-font" href="projects/project-dream-hero.html">
+                    <div class="grid-select-hover center">
+                        <h2>Project Dream Hero</h2>
+                        <p>Lorem Ipsum This is where the description goes or something like that!</p>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-select-item back-default" id="prev-2">
+                <a class="recent-projects-font" href="">
+                    <div class="grid-select-hover center">
+                        <h2>Placeholder</h2>
+                        <p>Lorem Ipsum This is where the description goes or something like that!</p>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-select-item back-default" id="prev-3">
+                <a class="recent-projects-font" href="">
+                    <div class="grid-select-hover center">
+                        <h2>Placeholder</h2>
+                        <p>Lorem Ipsum This is where the description goes or something like that!</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Combined About Me & Resume -->
+    <div class="no-margin personal back-default" id="personal">
+        <div class="row no-margin personal-wrapper">
+            <!-- About Me Section -->
+            <div class="personal-box about left personal-p roboto-slab">
+                <h1 class="center headers cormorant-garamond bottom-border-thin">About Me</h1>
+                <p>
+                    I grew up in a small town named Westfield in New York. Where after graduation from High School, I
+                    attended Jamestown Community College to obtain my associates in information technology. After a
+                    few years of realizing that I.T. isn't really for me, I spent time becoming a decently large
+                    YouTube and Twitch partner where I created guides and gaming videos.
+                </p>
+                <p>
+                    However, after a while of this I realized I wanted to accomplish something that could help me start
+                    a family. Throughout my life I grew up around technology and because of this I am able to adapt quickly
+                    to new technology, software, and game development platforms. With this knack I decided to attend Southern
+                    New Hampshire University Online where simultaneously I worked Full Time to obtain my bachelor’s degree in
+                    game Development and Programming.
+                </p>
+                <p>
+                    Along my journey in college, I have found a love for not just programming, but game development where I am
+                    in the works of creating a Survival Horror series, a Roguelike FPS, and a 2D Sidescroller. I love gaming
+                    and I feel being part of a development team is what I have deep down always wanted. Whether it be general
+                    software development or game development, I just love programming and can't wait to see where it takes me.
+                </p>
+            </div>
+            <!-- Resume Section -->
+            <div class="personal-box no-margin roboto-slab">
+                <h1 class="center cormorant-garamond headers ">Resume</h1>
+                <h2 class="cormorant-garamond bottom-border-thin headers">Education</h2>
+                <p class="no-margin resume-p">
+                    Southern New Hampshire University, Manchester NH
+                    <span style="float:right;">May 2026</span><br>
+                    Bachelor of Science in Game Development and Programming
+                    <ul>
+                        <li>
+                            GPA: 4.0 | President's List for 2 terms
+                        </li>
+                    </ul>
+                </p>
+                <p class="resume-p">
+                    Jamestown Community College, Jamestown NY
+                    <span style="float:right;">May 2015</span><br>
+                    Associate of Applied Science in Information Technology
+                </p>
+                <!-- Core Competencies & Certifications -->
+                <h2 class="cormorant-garamond bottom-border-thin headers">Core Competencies & Certifications</h2>
+                <p>
+                    <span class="resume-span">Game Development:</span> Unreal Engine, 3DS Max, Blender, Blueprint Scripting<br>
+                    <span class="resume-span">Programming Languages:</span> Python, C++, C#, Java, HTML & CSS<br>
+                    <span class="resume-span">Networking:</span> LAN / WAN Administration, TCP/IP<br>
+                    <span class="resume-span">Tools & Platforms:</span> Microsoft Office Suite, Adobe Suite (Photoshop, Illustrator, Premiere Pro), Windows, Max OS
+                </p>
+                <!-- Academic & Personal Projects -->
+                <h2 class="cormorant-garamond bottom-border-thin headers">Academic & Personal Projects</h2>
+                <p>
+                    <span class="resume-span">Text-Based Adventure Game:</span> Developed a terminal-based
+                    RPG using Python, showcasing RPG mechanics akin to DnD. Designed from scratch, focusing
+                    on story-building and coding fundamentals. <br><br>
+
+                    <span class="resume-span">Roguelike FPS Game:</span> Serving as the Lead Developer for
+                    a team of five, building a dynamic FPS using Unreal Engine with C++ and Blueprint
+                    scripting. Integrated original art and mechanics inspired by DnD and Gunfire Reborn,
+                    emphasizing collaborative design and iterative development.
+                </p>
+                <!-- Work Experience -->
+                <h2 class="cormorant-garamond bottom-border-thin headers">Work Experience</h2>
+                <!-- Walmart Job -->
+                <p class="resume-p">
+                    Walmart | Fredonia NY
+                    <span style="float:right;">March 2025 - Present</span><br>
+                    Stocking Associate
+                    <ul>
+                        <li>Select Projects</li>
+                        <li>About Me</li>
+                    </ul>
+                </p>
+                <!-- Cellular Sales Job -->
+                <p class="resume-p">
+                    Cellularsales / Verizon | Fredonia, Hamburg, Arcade NY
+                    <span style="float:right;">August 2023 - June 2024</span><br>
+                    Ops Lead
+                    <ul>
+                        <li>
+                            Managed inventory control and data upkeep for phones,
+                            accessories, and operational supplies.
+                        </li>
+                        <li>
+                            Directed trade-in processes, monthly inventory scans, and
+                            marketing planogram execution.
+                        </li>
+                        <li>
+                            Provided customer service and technical support, resolving
+                            device issues and upselling products and services.
+                        </li>
+                    </ul>
+                </p>
+                <!-- Gamestop Job -->
+                <p class="resume-p">
+                    GameStop | Fredonia NY
+                    <span style="float:right;">July 2021 - August 2023</span><br>
+                    Store Manager
+                    <ul>
+                        <li>
+                            Led a high-performing team of five, achieving top district
+                            metrics in sales and profitability.
+                        </li>
+                        <li>
+                            Spearheaded staff training and development,
+                            enhancing team productivity and customer satisfaction.
+                        </li>
+                        <li>
+                            Promoted from Assistant Manager to Store Manager
+                            for exemplary performance and operational success.
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--Footer Section-->
+    <div class="container-fluid footer">
+        <footer class="py-3 top_border_thick">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item">
+                    <a href="index.html" class="footer-text">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a target="_Blank" href="https://www.linkedin.com/in/patrickreardon-u5/" class="footer-text">LinkedIn</a>
+                </li>
+                <li class="nav-item">
+                    <a target="_Blank" href="https://github.com/UltimoFive" class="footer-text">Github</a>
+                </li>
+                <li class="nav-item">
+                    <a target="_Blank" href="mailto:patrick.reardon@snhu.edu" class="footer-text">Contact Me via Email</a>
+                </li>
+            </ul>
+            <p class="text-center copyright">
+                &copy;2025, Patrick Reardon.
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
