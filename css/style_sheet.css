@@ -40,6 +40,7 @@
 /* ---------------Background Color Settings--------------- */
 body {
     background-color: #ECF0F1; /* White */
+    caret-color: transparent;
 }
 
 .footer {
@@ -64,6 +65,14 @@ body {
     margin-left: auto;
     margin-right: 0px;
     padding-right: 25px;
+}
+
+.unselectable_text {
+    pointer-events: none;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Standard syntax */
 }
 
 /* -------------------Navbar Settings-------------------- */
@@ -131,6 +140,7 @@ body {
 /* -------------------Recent Projects--------------------- */
 .recent-projects {
     padding: 2% 4% 2% 4%;
+    background-image: url(../images/temp-background.png);
 }
 
 .grid-recent-projects {
@@ -290,6 +300,10 @@ iframe {
 
 .github-link:hover {
     color: #ECF0F1; /* White */
+}
+
+.back-increase {
+    padding: 14.3% 4% 14.21% 4%;
 }
 
 /* ---------------------Main Window---------------------- */
